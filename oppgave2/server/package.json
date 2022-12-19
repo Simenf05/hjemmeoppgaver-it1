@@ -1,11 +1,12 @@
 {
-  "name": "oppgave2",
+  "name": "server",
   "version": "1.0.0",
-  "description": "root",
+  "description": "server",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev" : "concurrently \"cd server && npm run dev\" \"cd client && npm start\""
+    "start" : "node index.js",
+    "dev": "nodemon index.js"
   },
   "author": "simen fritsvold",
   "license": "ISC"
