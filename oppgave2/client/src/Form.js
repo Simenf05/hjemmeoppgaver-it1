@@ -45,8 +45,7 @@ function Form(props) {
                 <button type="submit" onClick={(e) => handleSubmit(e)}>Svar</button>
                 <button onClick={() => setShowBars(!(showBars))}>Vis resultat</button>
             </div>
-
-            <p>{dataSent}</p>
+            
             </div>
             
         </form>

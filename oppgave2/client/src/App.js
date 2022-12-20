@@ -4,8 +4,7 @@ var asking = [
   ["Himmelen er grønn?", "skygreen"],
   ["Jorden er flat?", "flatearth"],
   ["Venus er firkantet?", "cubevenus"],
-  ["Saturn er rund", "roundsaturn"],
-  ["heihei", "heihei"]
+  ["Saturn er rund", "roundsaturn"]
 ]
 
 function App() {

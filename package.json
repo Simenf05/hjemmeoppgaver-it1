@@ -1,0 +1,20 @@
+{
+  "name": "hjemmeoppgaver-it1",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"cd oppgave2 && npm run dev\" \"cd oppgave1 && npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Simenf05/hjemmeoppgaver-it1.git"
+  },
+  "keywords": [],
+  "author": "simen fritsvold",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Simenf05/hjemmeoppgaver-it1/issues"
+  },
+  "homepage": "https://github.com/Simenf05/hjemmeoppgaver-it1#readme"
+}
