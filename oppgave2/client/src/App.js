@@ -1,23 +1,19 @@
-import { useState, useEffect } from "react";
-
 import Form from "./Form";
 
+var asking = [
+  ["Himmelen er grønn?", "skygreen"],
+  ["Jorden er flat?", "flatearth"],
+  ["Venus er firkantet?", "cubevenus"],
+  ["Saturn er rund", "roundsaturn"],
+  ["heihei", "heihei"]
+]
+
 function App() {
-  const [data, setData] = useState(null);
-
-  useEffect(() => {
-
-    fetch("http://localhost:3000/api").then((e) => e.text()).then((data) => setData(data));
-  }, [])
-
-
   return (
     <>
-      <Form />
-
-      <p>{data}</p>
+      <h1>Velkommen til min side</h1>
+      <Form data={asking} />
     </>
   )
 }
-
 export default App;

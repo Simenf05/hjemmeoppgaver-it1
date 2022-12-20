@@ -14,6 +14,7 @@ const data = [
   [28042, 26453],
   [27063, 25916],
   [27063, 25916],
+  [2706003, 25916],
 ]
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
